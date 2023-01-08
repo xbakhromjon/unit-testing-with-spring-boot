@@ -6,13 +6,11 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import uz.bakhromjon.unittestingwithspringboot.assertions.UserAssert;
 import uz.bakhromjon.unittestingwithspringboot.entities.User;
-import uz.bakhromjon.unittestingwithspringboot.entities.UserRepository;
+import uz.bakhromjon.unittestingwithspringboot.repositories.UserRepository;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.mockito.AdditionalAnswers.returnsFirstArg;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;

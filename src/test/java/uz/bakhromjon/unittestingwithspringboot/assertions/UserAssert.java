@@ -23,3 +23,4 @@ public class UserAssert extends AbstractAssert<UserAssert, User> {
         return this;
     }
 }
+

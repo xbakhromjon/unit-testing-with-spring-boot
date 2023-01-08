@@ -2,10 +2,9 @@ package uz.bakhromjon.unittestingwithspringboot.services;
 
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import uz.bakhromjon.unittestingwithspringboot.entities.User;
-import uz.bakhromjon.unittestingwithspringboot.entities.UserRepository;
+import uz.bakhromjon.unittestingwithspringboot.repositories.UserRepository;
 
 import java.time.LocalDateTime;
 
